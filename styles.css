@@ -1,0 +1,7 @@
+#mandelbrot-canvas {
+    border: black solid 1px;
+}
+
+#controls {
+    float: right;
+}

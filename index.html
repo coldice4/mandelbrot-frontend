@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Mandelbrot</title>
+    <meta name="description" content="Mandelbrot visualization frontend">
+    <meta name="author" content="Stephan Eder">
+
+    <link rel="stylesheet" href="styles.css?v=1.0">
+
+</head>
+
+<body>
+<canvas id="mandelbrot-canvas" width="1500" height="700"></canvas>
+
+<div id="controls">
+    <input type="number" placeholder="X" id="inputX">
+    <input type="number" placeholder="Y" id="inputY"><br>
+    <button onclick="getOnPosition()">Take me to the stars</button>
+
+    <hr>
+    <button onclick="up()">Up</button>
+    <button onclick="down()">Down</button>
+    <button onclick="left()">Left</button>
+    <button onclick="right()">Right</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
